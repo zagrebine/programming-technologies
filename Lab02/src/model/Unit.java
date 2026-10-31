@@ -22,7 +22,6 @@ public class Unit extends GameObject implements Damageable {
     @Override
     public void receiveDamage(float damage){
         this.hp -= damage;
-
         if (hp <= 0){
             hp = 0;
         }

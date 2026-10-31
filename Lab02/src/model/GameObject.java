@@ -30,5 +30,4 @@ public class GameObject {
         return y;
     }
 
-
 }
